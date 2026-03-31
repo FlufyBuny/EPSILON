@@ -1,4 +1,4 @@
-## 📄 Changelog
+## Changelog
 See [CHANGELOG.md](./CHANGELOG.md) for version history.
 
 EPSILON – Exchange Online & Compliance Toolkit
