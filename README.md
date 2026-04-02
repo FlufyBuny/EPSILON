@@ -12,15 +12,15 @@ Project Structure
 This repository includes three deployment formats:
 
 Windows PowerShell Script
-ExchangeOnlineManagement - EPSILON v1.1.ps1
+EOM v1.1.ps1
 Full interactive menu for Exchange Online & Compliance tasks
 
 macOS PowerShell Script
-ExchangeOnlineManagement - EPSILON v1.1 - MAC.ps1
+EOM v1.1 - MAC.ps1
 Compatible with PowerShell Core (pwsh) on macOS
 
 Executable Version
-ExchangeOnlineManagement - EPSILON v1.1.exe
+EOM v1.1.exe
 Packaged version of the PowerShell script for simplified execution
 Note: This is a wrapped .ps1, not a compiled binary
 
