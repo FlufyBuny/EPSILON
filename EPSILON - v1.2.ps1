@@ -21,7 +21,7 @@ if ($env:EPSILON_BYPASS -ne "1") {
         } catch {
             Write-Host "Failed to relaunch with ExecutionPolicy Bypass: $($_.Exception.Message)" -ForegroundColor Red
             Write-Host "Try launching manually with:" -ForegroundColor Yellow
-            Write-Host 'powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Path\EPSILON.ps1"' -ForegroundColor Yellow
+            Write-Host 'powershell.exe -NoProfile -ExecutionPolicy Bypass -File "EPSILON - v1.2.ps1"' -ForegroundColor Yellow
             Read-Host "Press Enter to exit"
             exit
         }
