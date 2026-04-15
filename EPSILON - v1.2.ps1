@@ -46,8 +46,7 @@ $global:DeltaQuit = $false
 function Show-Help {
     Clear-Host
     Write-Host "============= EPSILON - Help / About ============="
-    Write-Host "Version : 1.1"
-    Write-Host "Author  : Matt Fedeli (+ ChatGPT assist)"
+    Write-Host "Version : 1.2"
     Write-Host ""
     Write-Host "PURPOSE:"
     Write-Host "  EPSILON is an Exchange Online + Compliance PowerShell menu"
@@ -88,7 +87,7 @@ function Show-Help {
 # -------------------------
 function Show-StartupMenu {
     Clear-Host
-    Write-Host "========== EPSILON v1.1 =========="
+    Write-Host "========== EPSILON v1.2 =========="
     Write-Host "1: Exchange Online Tasks"
     Write-Host "2: Compliance Center (Purview) Tasks"
     Write-Host "H: Help / About EPSILON"
@@ -97,7 +96,7 @@ function Show-StartupMenu {
 
 function Show-MainMenu {
     param (
-        [string]$Title = 'Exchange Online Administration Menu (EPSILON v1.1)'
+        [string]$Title = 'Exchange Online Administration Menu (EPSILON v1.2)'
     )
     Clear-Host
     Write-Host "================ $Title ================"
