@@ -5,22 +5,24 @@ See [CHANGELOG.md](./CHANGELOG.md) for version history.
 
 ---
 
-## What's New in v1.2
+## What's New in v1.3
 
-- Added **Calendar Permissions module**
-  - Grant, update, and remove calendar access
-  - View existing calendar permissions
-  - Built-in access level selection (Reviewer, Editor, Owner, etc.)
-  - Automatic detection and updating of existing permissions  
+- Added **Delegation Management** module
+  - Update folder-level delegate permissions across common folders
+  - Review folder-level delegate permissions
+  - Review mailbox-level delegation
+  - Downgrade mailbox-level delegates to folder-level Reviewer
 
-- Improved **delegation workflows**
-  - Streamlined assistant / executive calendar management scenarios  
+- Expanded delegation visibility
+  - Review **Full Access**
+  - Review **Send As**
+  - Review **Send on Behalf**
 
-- Enhanced **permission handling**
-  - Prevents duplicate permission errors by updating existing entries  
+- Improved assistant / executive workflow support
+  - Better handling of scoped reviewer access
+  - Easier transition from mailbox-level access to folder-level delegation
 
-- Continued improvements to **script stability and usability**
-
+- Continued improvements to script structure, reliability, and usability
 ---
 
 ## Project
@@ -38,15 +40,15 @@ Built with MSP workflows in mind, EPSILON provides a menu-driven interface for f
 This repository includes three deployment formats:
 
 ### Windows PowerShell Script
-- `EOM - v1.2.ps1`  
+- `EPSILON - v1.3.ps1`  
 - Full interactive menu for Exchange Online & Compliance tasks  
 
 ### macOS PowerShell Script
-- `EOM - v1.2 - MAC.ps1`  
+- `EPSILON - v1.3 - MAC.ps1`  
 - Compatible with PowerShell Core (pwsh) on macOS  
 
 ### Executable Version
-- `EOM - v1.2.exe`  
+- `EPSILON - v1.3.exe`  
 - Packaged version of the PowerShell script for simplified execution  
 - **Note:** This is a wrapped `.ps1`, not a compiled binary  
 
