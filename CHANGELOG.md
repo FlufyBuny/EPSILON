@@ -1,16 +1,36 @@
-# EPSILON v1.2 – Release Notes
+# EPSILON v1.3 – Release Notes
 
 ## Overview
 
-EPSILON v1.2 builds upon the stable foundation established in v1.1, introducing enhanced calendar and delegation management capabilities while continuing to refine the unified, menu-driven PowerShell toolkit for Exchange Online and Compliance administration.
+EPSILON v1.3 expands the toolkit with a new Delegation Management module, giving administrators better visibility and control over folder-level and mailbox-level delegation in Exchange Online.
 
-This release expands real-world usability, particularly for MSP and executive-support scenarios.
+This release builds on the stability and administrative improvements of v1.2, with a strong focus on real-world assistant, executive, and MSP delegation workflows.
+
+---
+
+## What's New
+
+- Added **Delegation Management** module
+  - Update folder-level delegate permissions across common folders
+  - Review folder-level delegate permissions
+  - Review mailbox-level delegation
+  - Downgrade mailbox-level delegates to folder-level Reviewer
+
+- Expanded administrative visibility
+  - Review **Full Access**
+  - Review **Send As**
+  - Review **Send on Behalf**
+
+- Improved delegation workflows for:
+  - assistant / executive access
+  - shared mailbox support
+  - scoped reviewer-only access models
 
 ---
 
 ## Development Evolution
 
-EPSILON v1.2 continues the progression of prior internal development phases:
+EPSILON v1.3 continues the progression of prior internal development phases:
 
 - ALPHA
   - Initial concept and basic Exchange Online interaction
@@ -26,10 +46,10 @@ EPSILON v1.2 continues the progression of prior internal development phases:
   - Refinement of menu structure and usability  
   - Preparation for production use  
 
-- EPSILON (v1.1 → v1.2)
+- EPSILON (v1.1 → v1.3)
   - Consolidation into production-ready toolkit  
-  - Introduction of advanced administrative workflows  
-  - Expansion into calendar and delegation management  
+  - Calendar and delegation management added  
+  - Expansion into broader Exchange administration workflows  
 
 ---
 
@@ -47,7 +67,7 @@ EPSILON v1.2 continues the progression of prior internal development phases:
 
 ---
 
-### Calendar & Delegation (New in v1.2)
+### Calendar & Delegation
 
 - Grant calendar permissions (Reviewer, Editor, Owner, etc.)  
 - Modify existing calendar permissions dynamically  
@@ -55,6 +75,38 @@ EPSILON v1.2 continues the progression of prior internal development phases:
 - View current calendar permissions  
 - Built-in access level selection menu  
 - Automatic detection and update of existing permissions  
+
+---
+
+### Delegation Management (New in v1.3)
+
+- Update folder-level delegate permissions across:
+  - Inbox
+  - Calendar
+  - Contacts
+  - Tasks
+  - Notes
+  - Journal
+  - Drafts
+  - Sent Items
+
+- Review folder-level delegate permissions  
+- Review mailbox-level delegation:
+  - Full Access
+  - Send As
+  - Send on Behalf
+
+- Downgrade mailbox-level delegates to folder-level Reviewer  
+
+---
+
+### Shared Mailbox Management
+
+- List shared mailboxes  
+- Convert user mailbox to shared  
+- Convert shared mailbox to regular  
+- Add / remove Full Access  
+- Add / remove Send As  
 
 ---
 
@@ -69,11 +121,10 @@ EPSILON v1.2 continues the progression of prior internal development phases:
 
 ## Improvements
 
-- Expanded menu structure to include Calendar Permissions module  
-- Added predefined permission levels for faster administration  
-- Improved handling of existing permissions (update vs. duplicate errors)  
-- Enhanced real-world MSP workflows (assistant / executive scenarios)  
-- Continued refinement of script reliability and user experience  
+- Added dedicated Delegation Management module to the Exchange menu  
+- Improved visibility into mailbox-level and folder-level delegation  
+- Simplified downgrade path from mailbox-level access to folder-level reviewer access  
+- Continued refinement of script structure, reliability, and usability  
 - Maintained separation between Exchange and Compliance connections  
 
 ---
@@ -83,11 +134,12 @@ EPSILON v1.2 continues the progression of prior internal development phases:
 - Inbox rule creation timestamps are not available via standard Exchange cmdlets  
 - Some Exchange operations (e.g., Managed Folder Assistant) may return intermittent service-side RPC errors  
 - Calendar permissions do not automatically configure full Outlook delegate behavior (meeting handling requires additional configuration)  
+- Folder names may vary in some environments, which can affect folder-level delegation operations  
 
 ---
 
 ## Notes
 
-EPSILON v1.2 represents a significant step forward in practical administration, introducing calendar and delegation capabilities that align with real-world support needs.
+EPSILON v1.3 represents a meaningful expansion of administrative control, especially for organizations that rely heavily on delegated mailbox and calendar access.
 
-This version continues to serve as a stable foundation for future enhancements, including deeper delegation controls, reporting, and Microsoft Graph integration.  
+This release continues to strengthen EPSILON as a practical Microsoft 365 administration toolkit for real-world MSP operations.
