@@ -204,6 +204,12 @@ Customize freely for internal or client environments.
 
 Developed for real-world MSP operations to reduce friction and increase efficiency in Microsoft 365 administration.
 
+## License
+
+EPSILON is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+
+See the LICENSE file for details.
+
 ---
 
 ![Version](https://img.shields.io/badge/version-v1.3-blue)
